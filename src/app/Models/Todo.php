@@ -18,4 +18,17 @@ class Todo extends Model
     {
         return $this->belongsTo(Category::class);
     }
+    public function scopoeCategorySearch($query,$category_id)
+    {
+        if(!empty($category_id)){
+            $query->where('category_id',$category_id);
+        }
+    }
+    public function scopoeKeywordSearch($query,$keyword)
+    {
+        if(!empty($keyword)){
+            $query->where('content','like','%'.$keyword.'%');
+        }
+        return $query;
+    }
 }
