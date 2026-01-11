@@ -55,17 +55,17 @@ php artisan key;generate
 
 ## 使用技術（実行環境）
 
-フレームワーク：◯◯◯◯◯ ◯◯◯◯ ◯◯◯◯
+フレームワーク：laravel
 
-言語：◯◯◯◯◯ ◯◯◯◯ ◯◯◯◯
+言語：日本語
 
-Webサーバー：◯◯◯◯◯ ◯◯◯◯ ◯◯◯◯
+Webサーバー：Nginx
 
-データベース：◯◯◯◯◯ ◯◯◯◯ ◯◯◯◯
+データベース：mysql
 
 ## ER図
 
-![ER図](xxxx.drawio.png)
+![ER図](todo.drawio.png)
 
 ## URL
 
